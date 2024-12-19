@@ -1,0 +1,169 @@
+body{
+    background-color: white;
+        font-family: Arial, sans-serif;
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-attachment: fixed;
+        color: #fff; 
+        background-position: center;     
+}
+
+.navbar {
+    background-color: #116196; 
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.navbar li a:hover {
+    background-color: #45a049; 
+}
+
+.donate-button {
+    background-color: #f44336; 
+}
+
+.donate-button:hover {
+    background-color: #d32f2f; 
+}
+
+@media (max-width: 600px) {
+    .navbar li {
+        float: none; 
+    }
+}
+footer{
+    background-color: rgb(38, 85, 7);
+    color: white;
+    font-family: ayuthaya;
+    font-size: 20px;
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 4%;
+    
+}
+[id="prob"]{
+    border-color: #fff;
+    border-bottom: 50px;
+    height: 500px;
+    width: 1000px;
+    margin-left: 100px;
+}
+[id="pic 1"]{
+    border-radius: 10px;
+    width: 45%;
+    margin-top: 40px;
+    border-bottom: 40px;
+    height: 400px;
+    margin-right: 20px;
+    margin-left: 40px;
+    border-color: #d32f2f;
+}
+[id="pic 2"]{
+    border-radius: 10px;
+    width: 45%;
+    margin-top: 40px;
+    border-bottom: 40px;
+    height: 400px;
+    margin-left: 0px;
+    border-color: #d32f2f;
+}
+.text-on-image{ 
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align:left;
+}
+.container-2{
+ width: 95%;
+ margin-left: 0px;
+ background-color:rgb(10, 38, 151);
+ padding: 20px;
+ border-radius: 0px;
+ height: 0x;
+ color: rgb(255, 255, 255);
+ font-size: 20px;
+}
+.header {
+    background-color: hwb(59 13% 4%);
+    color: hsl(136, 82%, 25%);
+    border-radius: 0px;
+    margin-top: 100px;
+    padding: 20px;
+    width: 95%;
+    margin-left:0px;
+    font-size: 30px;
+    font-family: ayuthaya;
+    text-align: center;
+
+}
+.vision {
+    margin-bottom: 20px;
+}
+.mission{
+    margin-bottom: 20px;
+}
+.vision h21, .mission h21 {
+    margin-top: 0;
+}
+.vision p, .mission p  {
+    font-size: 18px;
+    font-weight: bold;
+    color: #c31818;
+}
+[id="guun"]{
+    color: #ffffff;
+    font-size: 20x;
+    margin-left: 90px;
+}
+[id="gun"]{
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 90px;
+
+    border-radius: 0px;
+}
+h22 {
+ font-size: 30px;
+}
+h21{
+    font-size: 30px;
+}
+[id="class 1"]{
+    margin-left: 20px;
+}
+h1{
+    color: #0d24a9;
+}
+[id="30"]{
+    color: #269e5c;
+    font-size: 18px;
+
+}
+[id="pro"]{
+    border-radius: 20px;
+}
+[id="logo"]{
+    margin-top: 20px;
+    border-width: 40px;
+    border-color: aqua;
+}
